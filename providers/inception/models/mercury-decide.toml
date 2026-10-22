@@ -7,7 +7,7 @@ base_model = "inception/mercury-decide"
 
 [api.decisions]
 base_url = "https://api.inceptionlabs.ai/v1"
-sdk = { aisdk = "none" }
+sdk = { aisdk = "none", opencodeai = "none" }
 
 [cost.text.input]
 price = 0.02
