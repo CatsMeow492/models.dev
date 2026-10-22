@@ -7,7 +7,7 @@ base_model = "perplexity/pplx-decider-v1.2"
 
 [api.decisions]
 base_url = "https://api.perplexity.ai/v1"
-sdk = { aisdk = "none" }
+sdk = { aisdk = "none", opencodeai = "@opencode/ai/providers/typesafe-ai" }
 
 [cost.text.input]
 price = 0.02
