@@ -6,6 +6,9 @@ description = "Embedding model for semantic search, retrieval, clustering, and r
 
 [limit]
 
+[api.embeddings]
+sdk = { opencodeai = "none" }
+
 [cost.text.input]
 price = 0.11215
 

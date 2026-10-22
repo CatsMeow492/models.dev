@@ -5,6 +5,9 @@ schema = 2
 base_model = "openai/whisper-large-v3"
 name = "Faster Whisper Large v3"
 
+[api.transcriptions]
+sdk = { opencodeai = "@opencode/ai/protocols/openai-transcription" }
+
 [cost.text.input]
 price = 0
 

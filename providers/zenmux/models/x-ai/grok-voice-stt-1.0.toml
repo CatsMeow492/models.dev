@@ -12,6 +12,9 @@ name = "Grok Voice STT 1.0"
 context = 15_000
 output = 15_000
 
+[api.transcriptions]
+sdk = { opencodeai = "none" }
+
 [cost.audio.input]
 unit = "second"
 price = 0.00002778

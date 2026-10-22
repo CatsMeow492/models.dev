@@ -26,6 +26,9 @@ temperature = false
 context = 0
 output = 8_192
 
+[api.transcriptions]
+sdk = { opencodeai = "@opencode/ai/protocols/openai-transcription" }
+
 [cost.audio.input]
 unit = "minute"
 price = 0.0033645

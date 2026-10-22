@@ -7,6 +7,9 @@ schema = 2
 base_model = "xai/grok-tts"
 name = "Grok Voice TTS 1.0"
 
+[api.speech]
+sdk = { opencodeai = "@opencode/ai/protocols/openai-speech" }
+
 [cost.text.input]
 unit = "character"
 price = 15

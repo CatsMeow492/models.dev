@@ -8,6 +8,9 @@ structured_output = false
 [limit]
 output = 4_096
 
+[api.embeddings]
+sdk = { opencodeai = "none" }
+
 [cost.text.input]
 price = 0.15
 

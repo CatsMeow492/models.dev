@@ -11,6 +11,9 @@ effort_updates = false
 context = 32_000
 input = 32_000
 
+[api.systemone]
+sdk = { aisdk = "none", opencodeai = "@opencode/ai/providers/typesafe-ai" }
+
 [cost.text.input]
 price = 0.042
 
