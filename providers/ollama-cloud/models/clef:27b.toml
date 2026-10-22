@@ -8,6 +8,9 @@
 schema = 2
 base_model = "cloudflare/clef"
 
+[capabilities]
+structured_output = true
+
 [api.systemone]
 sdk = { aisdk = "none", opencodeai = "@opencode/ai/providers/typesafe-ai" }
 

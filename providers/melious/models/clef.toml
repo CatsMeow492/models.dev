@@ -16,6 +16,7 @@ output = ["text"]
 
 [capabilities]
 temperature = false
+structured_output = true
 
 [limit]
 context = 16_384
